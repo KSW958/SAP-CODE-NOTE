@@ -164,7 +164,5 @@ def main():
         has_more = data.get('has_more', False)
         next_cursor = data.get('next_cursor')
 
-    update_main_readme_by_scanning(reset_mode)
-
 if __name__ == "__main__":
     main()
